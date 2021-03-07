@@ -1,14 +1,14 @@
-# 정보처리기사 실기 _ SQL문
-
----
-
 
 # .MD 사용해보기
+
+
+
+
+
+
 ---
-
-
 ## 데이터 정의어 (DDL) 
----
+
 
 
 ### CREATE
@@ -22,12 +22,12 @@
     [ `CONSTRAINT` 제약조건명(도메인 이름에 대한 제약조건의 이름) `CHECK` (범위값) ];
 
 3. 테이블 정의
-- CREATE TABLE 기본테이블 명
+- CREATE TABLE 기본테이블 명  
     (
     | 속성 |
     |---|
     | PRIMARY KEY (기본키 속성) |
     | UNIQUE (대체키 속성) |
     | FOREIGN KEY(외래키 속성) |
-    | REFERENCES 참조하는 테이블명 (기본키 속성) |
+    | REFERENCES 참조하는 테이블명 (기본키 속성) |  
     )
